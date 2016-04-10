@@ -1,0 +1,44 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="@string/pref_category_general"
+        />
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="display_autostart"
+        android:summary="@string/pref_general_autostart_description"
+        android:title="@string/pref_general_autostart_title" />
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="display_notification"
+        android:summary="@string/pref_general_notification_description"
+        android:title="@string/pref_general_notification_title" />
+
+    <PreferenceCategory
+        android:title="@string/pref_category_password"
+        />
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="copy_clipboard"
+        android:summary="@string/pref_password_copy_description"
+        android:title="@string/pref_password_copy_title" />
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="clear_clipboard"
+        android:summary="@string/pref_password_clear_description"
+        android:title="@string/pref_password_clear_title" />
+    <EditTextPreference
+        android:defaultValue="@string/pref_password_cleartime_default"
+        android:inputType="number"
+        android:key="keep_clipboard"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:summary="@string/pref_password_clear_description"
+        android:title="@string/pref_password_cleartime_title" />
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="close_app"
+        android:summary="@string/pref_password_close_description"
+        android:title="@string/pref_password_close_title" />
+</PreferenceScreen>

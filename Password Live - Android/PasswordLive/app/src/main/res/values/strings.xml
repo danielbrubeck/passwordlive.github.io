@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Password Live</string>
+    <string name="hint_secret_keyword">Secret Keyword</string>
+    <string name="hint_what_for">What for?</string>
+    <string name="hint_length">Length (8 - 64)</string>
+    <string name="uppercase">Upper case</string>
+    <string name="lowercase">Lower case</string>
+    <string name="numbers">Numbers</string>
+    <string name="special_chars">Special Characters</string>
+    <string name="generate">Generate Password</string>
+    <string name="result">Result</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+    <string name="pref_category_general">General</string>
+    <string name="pref_category_password">Password Generation</string>
+    <string name="pref_general_autostart_title">Auto Start</string>
+    <string name="pref_general_autostart_description">Start up this app automatically after a phone restart.</string>
+    <string name="pref_general_notification_title">Show Notification</string>
+    <string name="pref_general_notification_description">Show the icon on the notification bar to switch to this app easily</string>
+    <string name="pref_password_copy_title">Copy to clipboard</string>
+    <string name="pref_password_copy_description">Copy the generated password to the clipboard</string>
+    <string name="pref_password_close_title">Close this app after generation</string>
+    <string name="pref_password_close_description">The app will be closed after the password has been generated. This option requires the copy password to clipboard enabled.</string>
+    <string name="pref_password_clear_title">Clear clipboard</string>
+    <string name="pref_password_clear_description">This app will clear the clipboard after a certain time.</string>
+    <string name="pref_password_cleartime_title">Clipboard time wait</string>
+    <string name="pref_passwird_cleartime_description">The amount of time in seconds this app will before clearing the clipboard</string>
+    <string name="pref_password_cleartime_default">10</string>
+</resources>
